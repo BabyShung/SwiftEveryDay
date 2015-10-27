@@ -48,7 +48,7 @@
 		E60DD3B11BDF2E0C002EDB5C /* SwiftEveryDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftEveryDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E60DD3B51BDF2E0C002EDB5C /* SwiftEveryDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEveryDayUITests.swift; sourceTree = "<group>"; };
 		E60DD3B71BDF2E0C002EDB5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E60DD3C31BDF2ED9002EDB5C /* Bond.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bond.framework; path = Carthage/Build/iOS/Bond.framework; sourceTree = "<group>"; };
+		E60DD3C31BDF2ED9002EDB5C /* Bond.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bond.framework; path = ../Carthage/Build/iOS/Bond.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,10 +80,11 @@
 		E60DD3891BDF2E0C002EDB5C = {
 			isa = PBXGroup;
 			children = (
-				E60DD3C31BDF2ED9002EDB5C /* Bond.framework */,
 				E60DD3941BDF2E0C002EDB5C /* SwiftEveryDay */,
+				E60DD3C71BDF2F6D002EDB5C /* Resources */,
 				E60DD3A91BDF2E0C002EDB5C /* SwiftEveryDayTests */,
 				E60DD3B41BDF2E0C002EDB5C /* SwiftEveryDayUITests */,
+				E60DD3C61BDF2F3D002EDB5C /* Frameworks */,
 				E60DD3931BDF2E0C002EDB5C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,10 +104,6 @@
 			children = (
 				E60DD3951BDF2E0C002EDB5C /* AppDelegate.swift */,
 				E60DD3971BDF2E0C002EDB5C /* ViewController.swift */,
-				E60DD3991BDF2E0C002EDB5C /* Main.storyboard */,
-				E60DD39C1BDF2E0C002EDB5C /* Assets.xcassets */,
-				E60DD39E1BDF2E0C002EDB5C /* LaunchScreen.storyboard */,
-				E60DD3A11BDF2E0C002EDB5C /* Info.plist */,
 			);
 			path = SwiftEveryDay;
 			sourceTree = "<group>";
@@ -127,6 +124,27 @@
 				E60DD3B71BDF2E0C002EDB5C /* Info.plist */,
 			);
 			path = SwiftEveryDayUITests;
+			sourceTree = "<group>";
+		};
+		E60DD3C61BDF2F3D002EDB5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E60DD3C31BDF2ED9002EDB5C /* Bond.framework */,
+				E60DD3991BDF2E0C002EDB5C /* Main.storyboard */,
+			);
+			name = Frameworks;
+			path = SwiftEveryDay;
+			sourceTree = "<group>";
+		};
+		E60DD3C71BDF2F6D002EDB5C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E60DD39C1BDF2E0C002EDB5C /* Assets.xcassets */,
+				E60DD39E1BDF2E0C002EDB5C /* LaunchScreen.storyboard */,
+				E60DD3A11BDF2E0C002EDB5C /* Info.plist */,
+			);
+			name = Resources;
+			path = SwiftEveryDay;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
